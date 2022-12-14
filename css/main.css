@@ -1,0 +1,734 @@
+/*   Defaults    */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/*very important nav colors, don't change for now*/
+li a:visited {
+    color: inherit;
+}
+
+li a:link {
+    color: inherit;
+}
+
+.topnav a li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wrapper {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    text-decoration: none;
+}
+
+/* Mobile view first no quiries */
+
+
+
+
+
+
+
+
+
+/*HEADER NAV*/
+
+
+/*for the whole container*/
+.toptopnav {
+    text-align: center;
+    background-color: #222;
+    color: #c78c06;
+    padding: 5px;
+}
+
+/*for the coices*/
+.navchoice {
+    padding: 4%;
+}
+
+/*link options*/
+.navchoice:hover {
+    background-color: #c78c06;
+    color: #222;
+    text-decoration: none;
+}
+
+.navchoice:visited {
+    background-color: #c78c06;
+    color: #222;
+    text-decoration: none;
+}
+
+
+/*serach bar*/
+.navsearch {
+
+    width: auto;
+    padding: 1.25rem 0 1.25rem 0;
+    font-size: 1.25rem;
+
+}
+
+
+/*lirbrary serach button*/
+.fa-search {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    background: #222;
+    color: #c78c06;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+
+
+/*Welcome after header*/
+
+.welcome {
+
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.topwelcome {
+    width: 100%;
+    max-width: fit-content;
+}
+
+.contactbutton {
+    color: black;
+    background-color: #c78c06;
+    padding: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+}
+
+.mainbannerimage {
+    width: 100%;
+}
+
+
+
+.allbutimage {
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 90%;
+    padding: 5%;
+
+}
+
+.transparencyeffect {
+    padding: 1%;
+    background-color: rgba(34, 34, 34, 0.432);
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+/*ABOUT section*/
+
+.about {
+    background-color: #ffe6ac;
+    padding: 0%;
+    width: 100%;
+}
+
+.aboutustitle {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 0 0 4%;
+    width: 96%;
+}
+
+.abouttext {
+    padding: 0 0 2% 4%;
+    width: 92%;
+}
+
+.aboutimage {
+    width: 98%;
+    padding: 1%;
+}
+
+
+
+
+
+
+
+
+/*services*/
+
+.servicestitle {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1.5rem 0 0;
+}
+
+.servicecard {
+    background-color: #ffe6ac;
+    margin: 1%;
+    justify-content: center;
+}
+
+.servicename {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 2.5% 2% 2.5% 2%;
+}
+
+.servicebodytext {
+    padding: 2.5% 2% 2.5% 2%;
+}
+
+.servicebutton {
+    margin: 2%;
+    padding: 2rem;
+    background-color: #222;
+    color: white;
+    font-size: 1.5rem;
+    width: 96%;
+    border: none;
+}
+
+.serviceimage {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*VISION*/
+
+.vision {
+    width: 100%;
+    padding: 2% 0 0 0;
+}
+
+.visionwiththeimage {
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0 5% 0;
+    width: 100%;
+
+    color: white;
+
+}
+
+.ourvisionstitle {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.visiontext {
+    padding: 0 10% 0 10%;
+}
+
+/*vision paragraph padding*/
+.visionparagraph {
+    padding: 2.5% 0 2.5% 0;
+    line-height: 25px;
+}
+
+/*Vision's button*/
+.visionbutton {
+    color: white;
+    background-color: rgb(10, 32, 65);
+    border: none;
+    padding: 2.5%;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Our team*/
+
+
+.ourteamtitle {
+    background-color: white;
+    padding: 40px 0 20px 0;
+}
+
+.ourteam {
+    background-color: #ffe6ac;
+    padding: 0 0 0 0;
+}
+
+.ourteamtitle {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.teamname {
+    font-size: 2rem;
+    padding: 1%;
+    font-weight: 700;
+}
+
+.teamtitle {
+    font-size: 1.25rem;
+    padding: 0% 0% 0% 1%;
+    font-weight: 700;
+}
+
+.bobimage,
+.joeimage {
+    width: 100%;
+}
+
+/*padding for the team paragraph*/
+.teamparagraph {
+    padding: 2.5%;
+    line-height: 30px;
+}
+
+
+
+
+/*CONTACT*/
+
+.contact {
+    margin: 3rem 0 2rem 0;
+    align-items: center;
+}
+
+.contacttitle {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.sendmessage {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 1.25rem 0;
+}
+
+
+
+.formtype {
+    padding: 0 0 0 0;
+}
+
+.nameinput,
+.emailinput,
+.textinput {
+    width: 95%;
+    padding: 1%;
+}
+
+/*hours of operation*/
+
+
+.box11,
+.box12 {
+    background-color: #ffe6ac;
+}
+
+
+/*MAP*/
+
+.locationtitle {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.map {
+    width: 100%;
+}
+
+
+
+
+
+/*hours of operation*/
+
+
+/*hours of operation title*/
+.hoursofoperate {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 40px 0 10px 0;
+}
+
+
+.operationscontainer {
+    text-align: center;
+    padding: 0 0 0 0;
+    border: black;
+
+
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    grid-template-areas:
+        "box11 box12"
+        "box13 box15"
+        "box14 box16"
+    ;
+}
+
+/*purely for the item outline and item padding*/
+.boxline {
+    border: black;
+    padding: 3.5% 0 3.5% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.thefooter {
+    background-color: #222;
+    color: #c78c06;
+    padding: 2rem;
+}
+
+.footlink {
+    color: #c78c06;
+}
+
+.footlink {
+    padding: 1.5rem 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   Media queries   */
+
+@media screen and (min-width:760px) {
+
+    /*NAV*/
+
+    .starimage {
+        display: inline;
+        float: left;
+    }
+
+    .navsearch {
+        display: inline;
+        float: left;
+    }
+
+
+    li {
+        display: inline;
+    }
+
+    .supertopnav {
+        width: 100%;
+    }
+
+    .toptopnav {
+        display: inline;
+        float: left;
+        text-align: left;
+        width: 95%;
+        margin: auto;
+        padding: 0 0 0 5%;
+    }
+
+    /*outside padding and other*/
+    .topnav {
+        display: inline;
+        float: left;
+        padding: 2.5% 1% 2.5% 1%;
+    }
+
+    /**/
+    .navchoice {
+        display: inline-block;
+        float: left;
+        padding: 2rem 3rem 2rem 3rem;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+    .welcome {
+        font-size: 4rem;
+    }
+
+    .allbutimage {
+        background-image: url(../images/main-banner.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 80%;
+        padding: 15% 10% 5% 10%;
+
+    }
+
+    .transparencyeffect {
+        padding: 5% 5% 5% 5%;
+        background-color: rgba(34, 34, 34, 0.432);
+        color: white;
+    }
+
+
+    .contactbutton {
+        margin: 2.5% 0 0 0;
+    }
+
+
+
+
+
+
+
+
+    /*About*/
+
+    .aboutinside {
+
+
+        padding: 1% 5% 1% 5%;
+
+
+
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        grid-template-areas:
+            "aboutimage abouttextgrid"
+
+        ;
+    }
+
+    /*indide text*/
+    .abouttext {
+        padding: 2.5% 0 0 4%;
+    }
+
+
+
+
+
+    /*For the Services*/
+    .ourservices {
+        display: grid;
+        grid-template-columns: 6;
+        grid-template-rows: 3;
+        grid-template-areas:
+            "servicestitle servicestitle servicestitle servicestitle servicestitle servicestitle"
+            "service1 service1 service1 service2 service2 service2"
+            "service3 service3 service4 service4 service5 service5"
+        ;
+    }
+
+    .servicestitle {
+
+        grid-area: servicestitle;
+    }
+
+    .service1 {
+        grid-area: service1;
+    }
+
+    .service2 {
+        grid-area: service2;
+    }
+
+    .service3 {
+        grid-area: service3;
+    }
+
+    .service4 {
+        grid-area: service4;
+    }
+
+    .service5 {
+        grid-area: service5;
+    }
+
+
+
+
+
+
+
+
+
+    /*Team section*/
+    .teamcontainer {
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 3;
+        grid-template-areas:
+            "ourteamtitle ourteamtitle"
+            "box7 box8"
+            "box10 box9 ";
+    }
+
+    .ourteamtitle {
+        grid-area: ourteamtitle;
+    }
+
+    .box7 {
+        grid-area: box7;
+    }
+
+
+    .box8 {
+        grid-area: box8;
+    }
+
+
+    .box9 {
+        grid-area: box9;
+    }
+
+
+    .box10 {
+        grid-area: box10;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*contact side by side*/
+
+    .contactform {
+        width: 99%;
+    }
+
+    .contactbuttonform {
+        color: #c78c06;
+        background-color: #222;
+        padding: 2.5%;
+        font-size: 1.5rem;
+        margin: 2.5% 0 0 0;
+    }
+
+    .mapside {
+        width: 99%;
+    }
+
+    .hourscontainer {
+        width: 99%;
+    }
+
+
+    /*grid for form map and hours*/
+    .justthethree {
+
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 2;
+        grid-template-areas:
+            "contactform mapside"
+            "hourscontainer hourscontainer"
+
+        ;
+    }
+
+
+
+
+
+
+}
